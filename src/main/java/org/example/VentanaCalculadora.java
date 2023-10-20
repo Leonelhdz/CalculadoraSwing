@@ -23,7 +23,7 @@ public class VentanaCalculadora extends JFrame {
      * Operador actual (suma, resta, multiplicación, división, etc.).
      */
     String op;
-    
+
     /**
      * Panel principal de la ventana de la calculadora.
      */
