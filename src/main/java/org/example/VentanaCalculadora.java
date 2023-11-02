@@ -50,6 +50,7 @@ public class VentanaCalculadora extends JFrame {
     private JButton buttonDivision;
     private JButton buttonIgual;
     private JTextField textDisplay;
+    private JPanel secondPanel;
 
     /**
      * Constructor de la clase VentanaCalculadora.
@@ -311,7 +312,8 @@ public class VentanaCalculadora extends JFrame {
      * Cambia el fondo de la ventana a modo claro.
      */
     private void cambiarModoClaro() {
-        getContentPane().setBackground(Color.WHITE);
+        getContentPane().setBackground(new Color(0xC1C9CC));
+        secondPanel.setBackground(new Color(0xC1C9CC));
         repaint();
     }
 
@@ -320,7 +322,10 @@ public class VentanaCalculadora extends JFrame {
      */
     private void cambiarModoOscuro() {
         getContentPane().setBackground(Color.BLACK);
+        secondPanel.setBackground(Color.BLACK);
         repaint();
+
+
     }
 
 }
